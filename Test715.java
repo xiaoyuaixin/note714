@@ -1,68 +1,68 @@
 import java.util.Scanner;
 public class Test715{
 	public static void main( String[] args){
-		//show("5678");	//µ÷ÓÃÓĞ²ÎÊıµÄ·½·¨
-		//zhuan();//Êı¾İÀàĞÍ×ª»»
-		//input();//ÔõÃ´ÊäÈë
-		//Te.main(args);//²»ÒªÍü¼Ç²ÎÊı,
-		//addTest();//charÀàĞÍÏà¼Ó£¬²âÊÔ¼ÓºÅ×÷ÓÃ
-		//ZhuanYi.zhuan();//×ªÒå×Ö·û
-		//DataType.suan();//Êı¾İÀàĞÍµÄÄ¬ÈÏÖµ
-		//Jiajia.jiajia();//×ÔÔö×Ô¼õ
-		//D.d();//Óë»ò·Ç
-		E.e();
+		//show("5678");	//è°ƒç”¨æœ‰å‚æ•°çš„æ–¹æ³•
+		//zhuan();//æ•°æ®ç±»å‹è½¬æ¢
+		//input();//æ€ä¹ˆè¾“å…¥
+		//Te.main(args);//ä¸è¦å¿˜è®°å‚æ•°,
+		//addTest();//charç±»å‹ç›¸åŠ ï¼Œæµ‹è¯•åŠ å·ä½œç”¨
+		//ZhuanYi.zhuan();//è½¬ä¹‰å­—ç¬¦
+		//DataType.suan();//æ•°æ®ç±»å‹çš„é»˜è®¤å€¼
+		//Jiajia.jiajia();//è‡ªå¢è‡ªå‡
+		//D.d();//ä¸æˆ–é
+		E.e();//final ä¿®é¥°çš„å˜é‡  æ— æ³•ä¿®æ”¹  
 		
 	}
-	//·½·¨µÄµ÷ÓÃ
+	//æ–¹æ³•çš„è°ƒç”¨
 	public static void show( String str ){
-		System.out.println("str ½ÓÊÕµ½µÄĞÅÏ¢Îª£º " + str);	
+		System.out.println("str æ¥æ”¶åˆ°çš„ä¿¡æ¯ä¸ºï¼š " + str);	
 	}
-	//ÀàĞÍµÄ×ª»»
+	//ç±»å‹çš„è½¬æ¢
 	public static void zhuan(){
 		long tt = 21474836489999L;
 		float f1 = tt;
 		System.out.println("f1 = " + f1);
 		short s1 = 32767;
-		System.out.println("float¹ÜÀíµÄ×î´óÊı¾İÊÇ£º"+ Float.MAX_VALUE);	
-		System.out.println("float¹ÜÀíµÄ×îĞ¡Êı¾İÊÇ£º"+ Float.MIN_VALUE);	
+		System.out.println("floatç®¡ç†çš„æœ€å¤§æ•°æ®æ˜¯ï¼š"+ Float.MAX_VALUE);	
+		System.out.println("floatç®¡ç†çš„æœ€å°æ•°æ®æ˜¯ï¼š"+ Float.MIN_VALUE);	
 	}
-	//ÈçºÎÊµÏÖ¼üÅÌÊäÈë
+	//å¦‚ä½•å®ç°é”®ç›˜è¾“å…¥
 	/*
-		Èı²½£º
-		1£©µ¼Èë£ºimport java.util.Scanner;
-		2) ´´½¨£ºScanner sc = new Scanner(System.in);
-		3) Â¼Èë£ºint i = sc.nextInt();
+		ä¸‰æ­¥ï¼š
+		1ï¼‰å¯¼å…¥ï¼šimport java.util.Scanner;
+		2) åˆ›å»ºï¼šScanner sc = new Scanner(System.in);
+		3) å½•å…¥ï¼šint i = sc.nextInt();
 		         String s = sc.next();
 	*/
 	public static void input(){
-		System.out.println("ÊäÈëĞÅÏ¢£º");
-		Scanner sc = new Scanner(System.in);//½÷¼ÇÀ¨ºÅÄÚµÄÄÚÈİSystem.in
+		System.out.println("è¾“å…¥ä¿¡æ¯ï¼š");
+		Scanner sc = new Scanner(System.in);//è°¨è®°æ‹¬å·å†…çš„å†…å®¹System.in
 		String str = sc.next();
-		System.out.println("ÊäÈëµÄÊı¾İÎª£º" + str);
+		System.out.println("è¾“å…¥çš„æ•°æ®ä¸ºï¼š" + str);
 	}
-	//+ºÅ µÄ×÷ÓÃ
+	//+å· çš„ä½œç”¨
 	public static void addTest(){
 		int a = 10,b = 20;
-		char xing = 'Ê¯';
-		char ming = 'Ïş';
-		char ming2 = '¾ê';
-		//System.out.println("Ãû×ÖÎª(ÖĞ¼äÃ»ÓĞ¿Õ¸ñ¸ô¿ª):"+ xing + ming +ming2);
+		char xing = 'çŸ³';
+		char ming = 'æ™“';
+		char ming2 = 'å¨Ÿ';
+		//System.out.println("åå­—ä¸º(ä¸­é—´æ²¡æœ‰ç©ºæ ¼éš”å¼€):"+ xing + ming +ming2);
 		System.out.println( xing + ming +ming2);
-		System.out.println("ÓĞ¿Õ¸ñ¸ô¿ª:" + xing +"" + ming + "" + ming2 );
+		System.out.println("æœ‰ç©ºæ ¼éš”å¼€:" + xing +"" + ming + "" + ming2 );
 	}
 }
-//µ÷ÓÃ±ğµÄÀàµÄÖ÷·½·¨
+//è°ƒç”¨åˆ«çš„ç±»çš„ä¸»æ–¹æ³•
 class Te{
 	public static void main( String[] args){
-		System.out.println("ÎÒÔÚTeÀàÖĞ");	
+		System.out.println("æˆ‘åœ¨Teç±»ä¸­");	
 	}
 }
-//×ªÒå×Ö·ûµÄ×÷ÓÃ
+//è½¬ä¹‰å­—ç¬¦çš„ä½œç”¨
 /*
-	\n  »»ĞĞ
-	\r  »Ø³µ   ¹â±ê»Øµ½³õÊ¼×´Ì¬
-	\b  ÍË¸ñ   ²»»áÉ¾³ıÊı¾İ  Èç¹ûºóÃæÓĞÊı¾İ£¬Ôò»á¸²¸ÇµôÇ°Ãæ¸ñµÄÊı¾İ
-	\t  ÖÆ±í·û  Ò»¸öÖÆ±í·ûÕ¼8¸ö¿Õ¸ñ£¬²¢²»ÊÇ¿Õ°Ë¸ö¸ñ
+	\n  æ¢è¡Œ
+	\r  å›è½¦   å…‰æ ‡å›åˆ°åˆå§‹çŠ¶æ€
+	\b  é€€æ ¼   ä¸ä¼šåˆ é™¤æ•°æ®  å¦‚æœåé¢æœ‰æ•°æ®ï¼Œåˆ™ä¼šè¦†ç›–æ‰å‰é¢æ ¼çš„æ•°æ®
+	\t  åˆ¶è¡¨ç¬¦  ä¸€ä¸ªåˆ¶è¡¨ç¬¦å 8ä¸ªç©ºæ ¼ï¼Œå¹¶ä¸æ˜¯ç©ºå…«ä¸ªæ ¼
 	\\  \
 	\"  "
 	\'  '
@@ -71,13 +71,13 @@ class ZhuanYi{
 	public static void zhuan(){
 		System.out.println("abcd\n1234" );
 		System.out.println("abcd\r12" );
-		System.out.println("abcd\b1234\b" );//×Ö·ûd±»1¸²¸Ç£¬Êı×Ö4²»»áÏûÊ§
+		System.out.println("abcd\b1234\b" );//å­—ç¬¦dè¢«1è¦†ç›–ï¼Œæ•°å­—4ä¸ä¼šæ¶ˆå¤±
 		System.out.println("abcdefgh\t1234\t5\t678" );
 		
 			
 	}	
 }
-//¸÷ÖÖÊı¾İÀàĞÍµÄÄ¬ÈÏÖµ
+//å„ç§æ•°æ®ç±»å‹çš„é»˜è®¤å€¼
 class DataType{
 static byte by;
 	static short sh;
@@ -98,7 +98,7 @@ static byte by;
 	    System.out.println("boolean:"+b);
 	}
 }
-//×ÔÔö×Ô¼õ
+//è‡ªå¢è‡ªå‡
 class Jiajia{
 
 	public static void jiajia(){
@@ -107,29 +107,29 @@ class Jiajia{
 	    show2();
 	    show3();
 	}
-	//È¤Î¶Ë¼¿¼1: ÒÑÖª a = 2; Ö´ĞĞ a = a++; Ö®ºó£¬ÎÊaÊÇ¶àÉÙ£¬²¢¸æËßÎÒÖ´ĞĞµÄ¹ı³Ì¡£
+	//è¶£å‘³æ€è€ƒ1: å·²çŸ¥ a = 2; æ‰§è¡Œ a = a++; ä¹‹åï¼Œé—®aæ˜¯å¤šå°‘ï¼Œå¹¶å‘Šè¯‰æˆ‘æ‰§è¡Œçš„è¿‡ç¨‹ã€‚
 	public static void show1(){
 		int a = 2;
 		a = a++;
-		System.out.println("½á¹ûÎª:"+a);
+		System.out.println("ç»“æœä¸º:"+a);
 	}
-	//È¤Î¶Ë¼¿¼2: ÒÑÖª a = 2; Ö´ĞĞ int b = a++ + a++ + a++; Ö®ºó£¬ÎÊaºÍbÊÇ¶àÉÙ£¬²¢¸æËßÎÒÖ´ĞĞµÄ¹ı³Ì¡£
+	//è¶£å‘³æ€è€ƒ2: å·²çŸ¥ a = 2; æ‰§è¡Œ int b = a++ + a++ + a++; ä¹‹åï¼Œé—®aå’Œbæ˜¯å¤šå°‘ï¼Œå¹¶å‘Šè¯‰æˆ‘æ‰§è¡Œçš„è¿‡ç¨‹ã€‚
 	public static void show2(){
 		int a = 2;
 		int b = a++ + a++ + a++;
 		System.out.println("a:" + a +" " + "b:" + b);
 	}
-	//¿ÎÌÃÁ·Ï°: ¸ù¾İµ±Ç°°¸ÀıÍê³É ×Ô¼õÔËËã·ûµÄÓ¦ÓÃ¡£
+	//è¯¾å ‚ç»ƒä¹ : æ ¹æ®å½“å‰æ¡ˆä¾‹å®Œæˆ è‡ªå‡è¿ç®—ç¬¦çš„åº”ç”¨ã€‚
 	public static void show3(){
 		int a = 2;
-		System.out.println("×Ô¼õ½á¹ûÎª£º" + a);
+		System.out.println("è‡ªå‡ç»“æœä¸ºï¼š" + a);
 	}
 }
-//¶ÌÂ·Óë  ¶ÌÂ·»ò  ·Ç
+//çŸ­è·¯ä¸  çŸ­è·¯æˆ–  é
 /*
-	&&:¶ÌÂ·Óë  ×óÓÒÍ¬Îªtrue£¬½á¹ûÎªtrue  ·ñÔòÎªfalse£¬µ±×óÃæÎªfalse£¬ÓÒÃæ²»¼ÆËã£¬½ÚÊ¡Ê±¼ä£¬Ìá¸ßĞ§ÂÊ
-	||:¶ÌÂ·»ò  ×óÓÒÓĞÒ»±ßÎªtrue£¬½á¹ûÎªtrue  ¶¼ÎªfalseÊ±£¬½á¹ûÎªfalse   µ±×óÃæÎªtrueÊ±,½á¹ûÎªtrue
-	!:·Ç    
+	&&:çŸ­è·¯ä¸  å·¦å³åŒä¸ºtrueï¼Œç»“æœä¸ºtrue  å¦åˆ™ä¸ºfalseï¼Œå½“å·¦é¢ä¸ºfalseï¼Œå³é¢ä¸è®¡ç®—ï¼ŒèŠ‚çœæ—¶é—´ï¼Œæé«˜æ•ˆç‡
+	||:çŸ­è·¯æˆ–  å·¦å³æœ‰ä¸€è¾¹ä¸ºtrueï¼Œç»“æœä¸ºtrue  éƒ½ä¸ºfalseæ—¶ï¼Œç»“æœä¸ºfalse   å½“å·¦é¢ä¸ºtrueæ—¶,ç»“æœä¸ºtrue
+	!:é    
 */
 class D{
 	public static void d(){
@@ -137,7 +137,7 @@ class D{
 		int b = a++;
 		boolean flag = 5 >= 3;
 		System.out.println("flag = " + flag );
-		flag = "ABC" instanceof String ;//instanceof ÊôÓÚ
+		flag = "ABC" instanceof String ;//instanceof å±äº
 		System.out.println("flag = " + flag );		
 		a = 5; 
 		b = 6;
@@ -147,11 +147,11 @@ class D{
 		System.out.println("a = " + a + "\tb = " + b + "\tflag = " + flag );	
 	}
 }
-//fianl ×îÖÕ   ²»¿ÉĞŞ¸Ä
+//fianl æœ€ç»ˆ   ä¸å¯ä¿®æ”¹
 class E{
 	public static void e(){
 		final double PI = 3.14;
-		double c = 3;//°ë¾¶
-		System.out.println("°ë¾¶Îª:" + c +"µÄÔ²µÄÃæ»ıÎª:" + c * PI * PI);
+		double c = 3;//åŠå¾„
+		System.out.println("åŠå¾„ä¸º:" + c +"çš„åœ†çš„é¢ç§¯ä¸º:" + c * PI * PI);
 	}
 }
